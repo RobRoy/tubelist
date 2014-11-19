@@ -1,4 +1,5 @@
 ActiveAdmin.register Video do
+  permit_params :uri
 
 
   # See permitted parameters documentation:
